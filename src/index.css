@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.countries {
+  text-align: center;
+  text-decoration: underline 2px;
+  margin-top: 75px;
+}
+
+.text{
+  font-size: 20px;
+  text-align: center;
+}
+
+.download {
+  background-color: #4CAF50;
+  border: none; 
+  color: white; 
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 10px; 
+}
+.download:hover {
+  background-color: green;
+}
+
+.main{
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+.systemSpecs {
+  border:  solid  5px  ;
+  
+  
+}
+
+.tutorial {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.h {
+  text-decoration: underline 2px;
+  
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+}
+
+.imgreh {
+  margin-right: 20px; 
+}
+
+.content {
+  text-align: left; 
+}
+
+
+
+.di {
+  text-align: center;
+  margin-top: 100px;
+ 
+}
+
+.di p {
+  opacity: 1;
+  transition: opacity 0.5s ease; 
+}
+
+.di p.hide {
+  opacity: 0;
+}
+
+.divdi {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px; 
+  font-weight: bold;
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00; 
+}
+
+.divdi:hover {
+  background-color: #45a049; 
+}
+
+h1 {
+  color: #fff; 
+  text-align: center;
+  font-size: 36px; 
+
+  font-family: Old Standard TT;
+}
+
+
+
+
+
+
+
+
+
