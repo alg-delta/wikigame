@@ -9,7 +9,7 @@ import Divdination from "./components/Divdination";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="wikigame">
         <Header />
         <Routes>
           <Route path="/" element={<Main />} />
